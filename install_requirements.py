@@ -33,10 +33,11 @@ def install_requirements():
     print(f"system detected: {os_system}")
 
     # Install pytorch
-    torch = ["torch", "torchvision", "torchaudio"]
-
+    torch = ["torch==1.13.1+cu117", "torchvision==0.14.1+cu117", "torchaudio==0.13.1", "torchtext==0.14.1", "torchdata==0.5.1"]
+    
+    #%pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 torchtext==0.14.1 torchaudio==0.13.1 torchdata==0.5.1 --extra-index-url https://download.pytorch.org/whl/cu117
     extra_index_url = (
-        "https://download.pytorch.org/whl/cu118" #if os_system == "Windows" else None
+        "https://download.pytorch.org/whl/cu117" #if os_system == "Windows" else None
     )
     pip_install_packages(torch, extra_index_url=extra_index_url)
 
