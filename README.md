@@ -1,6 +1,6 @@
 ## Tofu Stable Diffusion
    
-   <a href="https://colab.research.google.com/github/tofudiffusion/tofu_diffusion_SD/blob/dev/Tofu_Diffusion_SD.ipynb"><img alt="Colab" src="https://colab.research.google.com/assets/colab-badge.svg"></a> 
+   <a href="https://colab.research.google.com/github/tofudiffusion/tofu_diffusion_SD/blob/td-1.0.0/Tofu_Diffusion_SD.ipynb"><img alt="Colab" src="https://colab.research.google.com/assets/colab-badge.svg"></a> 
 
 Welcome to Tofu Stable Diffusion a fork of [Deforum Stable Diffusion](https://github.com/deforum-art/deforum-stable-diffusion)
 
