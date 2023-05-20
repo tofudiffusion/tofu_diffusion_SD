@@ -36,7 +36,7 @@ def install_requirements():
     torch = ["torch", "torchvision", "torchaudio"]
 
     extra_index_url = (
-        "https://download.pytorch.org/whl/cu117" if os_system == "Windows" else None
+        "https://download.pytorch.org/whl/cu118" #if os_system == "Windows" else None
     )
     pip_install_packages(torch, extra_index_url=extra_index_url)
 
